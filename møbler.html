@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Møbler</title>
+<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- dette er til burger menuen -->
+	<link rel="stylesheet" href="https://use.typekit.net/wfe2pxp.css"> <!-- dette er for at have skrittypen mr-eaves-xl -->
+	<meta name="robots" content="noindex, nofollow"> <!-- dette er for at hjemmesiden ikke kan finde på google. skal fjernes hvis siden skal bruges -->
+</head>
+
+<body>
+	<div class="grid-container"> <!-- grid containeren strækker sig over hele koden. inde i den er der opsat et grid -->
+		
+		<aside class="item1"></aside> <!-- tilbudsbaren i toppen. se stylesheet for at vise på siden -->
+		
+		<div class="burger"> <!-- dette er kassen hvor i burgermenuen er. dette vises kun på mobil version  -->
+			<a href="index.html" class="active"><img src="Billeder/logo.png" alt="logo" width="auto" height="50px"></a>
+  			<nav id="myLinks">
+    			<a href="index.html" class="active">Forside</a>
+    			<a href="møbler.html">Møbler</a>
+    			<a href="butik.html">Butik</a>
+    			<a href="service.html">Service</a>
+    			<a href="om_os.html">Om os</a>
+  			</nav>	
+  				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+		
+		<nav class="item2"> <!-- dette er den almindelige menu der vises i dekstop. den er delt i 3 for at få logo i midten. så der er item2, logo og item2_2 der er menuen -->
+			<nav class="topnav">
+ 				<a class="active" href="index.html">Forside</a>
+  				<a href="møbler.html">Møbler</a>
+			</nav> 
+		</nav>
+		<div class="logo">
+			<nav class="topnav">
+				<img src="Billeder/logo.png" alt="logo" width="auto" height="100%">
+			</nav> 
+		</div>
+		<nav class="item2_2">
+			<nav class="topnav">
+				<a href="butik.html">Butik</a>
+	 			<a href="service.html">Service</a>
+				<a href="om_os.html">Om os</a>
+			</nav> 
+		</nav>
+		
+		
+		<div class="item3">
+			<article>
+	  			<h2>Værdien bag vores møbler</h2>
+		 		<p>Kenz Copenhagen har deres inspiration fra det skandinaviske og marokkanske look. Vi sælger forskellige unikke møbler og accessories til alle hjem.</p>
+				<p>Hos os sætter vi fokus på unikke håndværk og bæredygtighed. Dette sættes især i fokus på de møbler vi sælger hos Kenz Copenhagen. Istedet for at smide et helt møbel ud, ser vi dette som en mulighed for at give det en ny kærlig hånd, hvilket man kan komme og se i vores værksted, hvor det hele foregår. Vi har derfor også fokus på at du altid kan komme med et af dine egne møbler og få et helt nyt look. </p>
+				<p>Vores produkter hos Kenz Copenhagen er udvalgt efter kvalitet fra Marokko udover dem vi selv producerer i vores værksted. </p>
+	  		</article>
+		</div>
+		<div class="item4">
+			<img src="Billeder/møbler1.JPG" alt="puff" width="100%" height="auto">
+		</div>
+	  	<div class="item5_2">
+			<h2>Åbningstider</h2>
+			<p>Mandag-fredag: 10-18</p>
+			<p>Lørdag: 11-18</p>
+			<p>Søndag: Lukket</p>
+		</div>
+
+		<div class="item7">
+			<img src="Billeder/møbler2.JPG" alt="puff" width="100%" height="auto">
+		</div>
+		<div class="item8">
+			<div class="arrow bounce"></div>
+		</div>
+	</div>
+	
+		<div class="item9"> <!-- denne boks indeholder menuen i bunden. denne vises i desktop versionen-->
+			<div class="flex-container">
+   				<div>
+					<h2 class="size">Om Kenz Copenhagen</h2>
+					<a href="#">Hvordan startede vi</a>
+    				<a href="om_os.html">Om os</a>
+    				<a href="#">Værksted</a>
+    				<a href="butik.html">Butik</a>
+				</div>
+  				<div>
+					<h2 class="size">Kundeservice</h2>
+					<a href="#">Møbelpolstring</a>
+    				<a href="#">Materialer og pleje</a>
+    				<a href="#">Reklamation</a>
+    				<a href="#">Returnering og fortrydelse</a>
+    				<a href="#">Persondatapoltik</a>
+    				<a href="#">Prisgaranti</a>
+				</div>
+  				<div>
+					<h2 class="size">Sociale media</h2>
+					<a href="https://www.instagram.com/kenzcopenhagen/?hl=da"><img src="Billeder/instagram.png" alt="instagram"></a>
+				</div>
+				<div>
+					<h2 class="size">Kontakt</h2>
+					<p>Åbningstider:</p>
+					<p>Mandag-fredag: 10-19</p>
+					<p>Lørdag: 13-18</p>
+					<p>Søndag: Lukket</p>
+					<p>Telefon:</p>
+					<p>+45 51 50 51 22</p>
+					<p>E-mail:</p>
+					<p>Kenzcph@outlook.dk</p>
+				</div> 
+			</div>
+		</div>
+	
+		<div class="footer"> <!-- denne boks indeholder dropdown menuen der er i bunden, som vises i mobil versionen  -->
+  			<button class="dropdown-btn">Om Kenz Copenhagen 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="#">Hvordan startede vi</a>
+    				<a href="om_os.html">Om os</a>
+    				<a href="#">Værksted</a>
+    				<a href="butik.html">Butik</a>
+  				</div>
+   			<button class="dropdown-btn">Kundeservice 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="#">Møbelpolstring</a>
+    				<a href="#">Materialer og pleje</a>
+    				<a href="#">Reklamation</a>
+    				<a href="#">Returnering og fortrydelse</a>
+    				<a href="#">Persondatapoltik</a>
+    				<a href="#">Prisgaranti</a>
+  				</div>
+  			<button class="dropdown-btn">Sociale media 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="https://www.instagram.com/kenzcopenhagen/?hl=da"><img src="Billeder/instagram.png" alt="instagram"></a>
+  				</div>
+   			<button class="dropdown-btn">Kontakt
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<p>Åbningstider</p>
+  					<p>Mandag-fredag: 10-19</p>
+					<p>Lørdag: 13-18</p>
+					<p>Søndag: Lukket</p>
+					<p>Telefon:</p>
+					<p>+45 51 50 51 22</p>
+					<p>E-mail:</p>
+					<p>Kenzcph@outlook.dk</p>
+  				</div>
+		</div>
+	
+	<script src="java.js"></script>	
+</body>
+</html>

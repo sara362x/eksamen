@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="da">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Om os</title>
+<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- dette er til burger menuen -->
+	<link rel="stylesheet" href="https://use.typekit.net/wfe2pxp.css"> <!-- dette er for at have skrittypen mr-eaves-xl -->
+	<meta name="robots" content="noindex, nofollow"> <!-- dette er for at hjemmesiden ikke kan finde på google. skal fjernes hvis siden skal bruges -->
+</head>
+
+<body>
+	<div class="grid-container"> <!-- grid containeren strækker sig over hele koden. inde i den er der opsat et grid -->
+		
+		<aside class="item1"></aside> <!-- tilbudsbaren i toppen. se stylesheet for at vise på siden -->
+		
+		<div class="burger"> <!-- dette er kassen hvor i burgermenuen er. dette vises kun på mobil version  -->
+			<a href="index.html" class="active"><img src="Billeder/logo.png" alt="logo" width="auto" height="50px"></a>
+  			<nav id="myLinks">
+    			<a href="index.html" class="active">Forside</a>
+    			<a href="møbler.html">Møbler</a>
+    			<a href="butik.html">Butik</a>
+    			<a href="service.html">Service</a>
+    			<a href="om_os.html">Om os</a>
+  			</nav>	
+  				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+		</div>
+		
+		<nav class="item2"> <!-- dette er den almindelige menu der vises i dekstop. den er delt i 3 for at få logo i midten. så der er item2, logo og item2_2 der er menuen -->
+			<nav class="topnav">
+ 				<a class="active" href="index.html">Forside</a>
+  				<a href="møbler.html">Møbler</a>
+			</nav> 
+		</nav>
+		<div class="logo">
+			<nav class="topnav">
+				<img src="Billeder/logo.png" alt="logo" width="auto" height="100%">
+			</nav> 
+		</div>
+		<nav class="item2_2">
+			<nav class="topnav">
+				<a href="butik.html">Butik</a>
+	 			<a href="service.html">Service</a>
+				<a href="om_os.html">Om os</a>
+			</nav> 
+		</nav>
+		
+		<div class="forside2">
+			<img src="Billeder/omos1.JPG" alt="service" width="auto" height="100%">
+		</div>
+		<div class="forside4">
+			<h2>Om os</h2>
+			<p>Kenz Copenhagen er et brand der forsøger at inspirere og give vores købere marokkansk tvist i det nordiske hjem. Vores passion er ikke kun at skabe et brand, men derimod også at skabe noget der giver mening og værdi i hjemmet. Det handler om at få dit hjem til at skille sig ud, mens du bringer varme og hygge ind. </p>
+			<p>Vores møbelpolstrer har over 25 års erfaring inden for møbel- og design branche, en rejse der startede tilbage i Marokko i slut 80’erne og senere er blevet videreført til Danmark. Vores møbelpolstrer holder fast i det traditionelle møbelhåndværk, og går aldrig på kompromis med kvaliteten, hvoraf vores drøm er at skabe en bæredygtig forretning og dermed beskytte vores natur for overproduktion. </p>
+		</div>
+		<div class="forside2">
+			<p>Vores møbler er både af kendte danske designere samt mindre kendte klassikere, som vi gør i stand med en helt ny polstring og ombetrækning – alt dette uden at gå på kompromis med det originale design. </p>
+			<p>Hos Kenz Copenhagen går vi efter helheden, og står derfor også indenfor med meget andet end bare møbler. De fleste af vores produkter er håndlavet af genanvendte og naturlige produkter, hvilket ikke efterlader to produkter 100% identiske. Du står derfor tilbage med et unikt interiørstykke i dit hjem. </p>
+			<p>’Kenz’ stammer fra arabisk og betyder skattekiste – en sammensætning der giver Kenz Copenhagen et touch af den marokkanske atmosfære og souk.</p>
+		</div>
+		<div class="forside3_2">
+			<img src="Billeder/omos2.JPG" alt="snorre" width="auto" height="100%">
+		</div>
+		
+	</div>
+	
+		<div class="item9"> <!-- denne boks indeholder menuen i bunden. denne vises i desktop versionen-->
+			<div class="flex-container">
+   				<div>
+					<h2 class="size">Om Kenz Copenhagen</h2>
+					<a href="#">Hvordan startede vi</a>
+    				<a href="om_os.html">Om os</a>
+    				<a href="#">Værksted</a>
+    				<a href="butik.html">Butik</a>
+				</div>
+  				<div>
+					<h2 class="size">Kundeservice</h2>
+					<a href="#">Møbelpolstring</a>
+    				<a href="#">Materialer og pleje</a>
+    				<a href="#">Reklamation</a>
+    				<a href="#">Returnering og fortrydelse</a>
+    				<a href="#">Persondatapoltik</a>
+    				<a href="#">Prisgaranti</a>
+				</div>
+  				<div>
+					<h2 class="size">Sociale media</h2>
+					<a href="https://www.instagram.com/kenzcopenhagen/?hl=da"><img src="Billeder/instagram.png" alt="instagram"></a>
+				</div>
+				<div>
+					<h2 class="size">Kontakt</h2>
+					<p>Åbningstider:</p>
+					<p>Mandag-fredag: 10-19</p>
+					<p>Lørdag: 13-18</p>
+					<p>Søndag: Lukket</p>
+					<p>Telefon:</p>
+					<p>+45 51 50 51 22</p>
+					<p>E-mail:</p>
+					<p>Kenzcph@outlook.dk</p>
+				</div> 
+			</div>
+		</div>
+	
+		<div class="footer"> <!-- denne boks indeholder dropdown menuen der er i bunden, som vises i mobil versionen  -->
+  			<button class="dropdown-btn">Om Kenz Copenhagen 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="#">Hvordan startede vi</a>
+    				<a href="om_os.html">Om os</a>
+    				<a href="#">Værksted</a>
+    				<a href="butik.html">Butik</a>
+  				</div>
+   			<button class="dropdown-btn">Kundeservice 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="#">Møbelpolstring</a>
+    				<a href="#">Materialer og pleje</a>
+    				<a href="#">Reklamation</a>
+    				<a href="#">Returnering og fortrydelse</a>
+    				<a href="#">Persondatapoltik</a>
+    				<a href="#">Prisgaranti</a>
+  				</div>
+  			<button class="dropdown-btn">Sociale media 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<a href="https://www.instagram.com/kenzcopenhagen/?hl=da"><img src="Billeder/instagram.png" alt="instagram"></a>
+  				</div>
+   			<button class="dropdown-btn">Kontakt
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  				<div class="dropdown-container">
+    				<p>Åbningstider</p>
+  					<p>Mandag-fredag: 10-19</p>
+					<p>Lørdag: 13-18</p>
+					<p>Søndag: Lukket</p>
+					<p>Telefon:</p>
+					<p>+45 51 50 51 22</p>
+					<p>E-mail:</p>
+					<p>Kenzcph@outlook.dk</p>
+  				</div>
+		</div>
+	
+	<script src="java.js"></script>	
+</body>
+</html>
